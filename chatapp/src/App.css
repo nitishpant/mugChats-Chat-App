@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+}
+
+@media (max-aspect-ratio: 11/10){
+    .JoinPage{
+        background-color: #f05053;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .JoinContainer{
+        width: 100%;
+    }
+    
+    .JoinContainer >h1{
+        color: white;
+        font-size: 6vw;
+        width: 20vw;
+    }
+    .joinbtn{
+        width: 12vw;
+        padding: 0.vw;
+        border-radius: 1vw;
+        font-size: 3vw;
+    }
+    .joinbtn:hover{    
+        font-size: 3vw;
+    }
+    #joinInput{
+        width: 40vw;
+        padding: 1vmax;
+        border-radius: 1vmax;
+    }
+    .chatContainer{
+        background-color: white;
+        height: 100vh;
+        width: 100%;
+    }
+    .sendBtn{
+        font-size: 10vw;
+    }
+    .header{
+        height: 15vw;
+    }
+    .header>h2{
+        font-size: 12vw;
+        margin: 3vw;
+    }
+    .header>h2:hover{
+        margin: 4vw;
+        margin: 4vw;
+    }
+    
+    #chatInput{
+        font-size: 10vw;
+    }
+    .messageBox{
+        padding: 2vw;
+        margin: 1vmax;
+        border-radius: 0.4vmax;
+    }
+    
+    
+}

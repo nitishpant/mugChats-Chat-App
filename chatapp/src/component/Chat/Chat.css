@@ -1,0 +1,98 @@
+.chatPage{
+    background-color: #f05053;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chatContainer{
+    background-color: white;
+    height: 60%;
+    width: 50%;
+}
+
+.header{
+    background-color: crimson;
+    height: 10%;
+    color: white;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.header>h2{
+    font-size: 5vh;
+    font-family: Dongle;
+    margin: 2vmax;
+    transition: all 0.7s;
+}
+.header>h2:hover{
+    font-size: 5.5vh;
+    font-family: Dongle;
+    margin: 2vmax;
+    cursor: pointer;
+}
+
+.header h4{
+    color: white;
+    text-decoration: none;
+    text-align: right;
+    margin: 2vmax;
+    transition: all 0.7s;
+}
+.header h4:hover{
+    text-align: right;
+    margin: 1vmax;
+    cursor: pointer;
+}
+
+.chatBox{
+
+    height: 80%;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+.inputBox{
+    border: 0.05vmax solid black;
+    height: 10%;
+    display: flex;
+}
+
+.sendBtn{
+    background-color: rgb(233, 80, 111);
+    color: white;
+    border: none;
+    width: 20%;
+    transition: all 0.3s;
+    cursor: pointer;
+    font-size: 2.2vmax;
+    font-family: Dongle;
+}
+.sendBtn:hover {
+    background-color: crimson;
+    font-size: 2.4vmax;
+
+}
+
+#chatInput{
+    width: 80%;
+    border: none;
+    background-color: rgb(214, 214, 214);
+    box-sizing: border-box;
+    outline: none; 
+    font-size: 2.2vmax;
+    font-family: Dongle;
+}
+
+.closeicon{    
+    height: 2.3vmax;
+    margin-right: 1vmax;
+    transition: transform .4s ease-in-out;
+}
+.closeicon:hover{    
+    height: 2.3vmax;
+    margin-right: 1vmax;
+    transform: rotate(90deg);
+}
