@@ -1,7 +1,7 @@
 .JoinPage{
     background-color: #f05053;
     width: 100vw;
-    height: 100vh;
+    height: 92vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,4 +55,25 @@
     border-radius: 1vmax;
     outline: none;
     background-color: #eea0c1;
+}
+
+.footer{
+    background-color: #9a78f7;
+    height: 8vh;
+    width: 100vw;
+    color: white;
+    text-align: right;
+    font-size: 2vmax;
+    font-family: "Dongle";
+}
+.footText{    
+    font-size: 2vmax;
+    font-family: "Dongle";
+    color: white;
+    text-decoration: none;
+    margin-right: 2vw;
+    margin-top: 2vw;
+}
+.footText:hover{    
+  text-decoration: underline;
 }
